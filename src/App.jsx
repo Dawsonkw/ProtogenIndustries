@@ -4,7 +4,7 @@ import logo from './images/kitsune-logo.png'
 
 export default function App() {
   return (
-    <div className="App bg-gradient-to-r from-kitsuneBlue via-kitsuneOrange2 to-kitsuneOrange font-robotoSlab ">
+    <div className="App bg-gradient-to-r from-kitsuneBlue via-kitsuneOrange2 to-kitsuneOrange font-robotoSlab px-3">
         
               <div className="grid grid-cols-3 grid-rows-2 max-h-fit">
                 <div className="flex- flex-col -my-5">

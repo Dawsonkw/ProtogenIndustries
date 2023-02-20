@@ -54,6 +54,10 @@ module.exports = {
       'compGrad' : '#a88b2d',
       'silver' : '#c0c0c0',
       'compGrad3' : '#fca97d',
+      'protoTeal' : '#74ffff',
+      'protoBlue' : '#23aee1',
+      'protoGray' : '#59403a',
+      'protoSteel' : '#5d7683',
 
     }, 
     screens: {

@@ -161,7 +161,7 @@ export default function BasicTable(props) {
       container: {
         display: "flex",
         alignItems: "center",
-        color: "#f37834",
+        color: "#5d7683",
       }
     };
 
@@ -238,8 +238,8 @@ export default function BasicTable(props) {
                         className="wrapper PG-2"
                         maxCompleted={100}
                         margin={5}
-                        bgColor="#f37834"
-                        baseBgColor="#34b0f3"
+                        bgColor="#59403a"
+                        baseBgColor="#23aee1"
                         labelAlignment="right, outside"
                         width="150%"
                         animateOnRender="true"
@@ -253,8 +253,8 @@ export default function BasicTable(props) {
                         className="wrapper PG-2"
                         maxCompleted={100}
                         margin={5}
-                        bgColor="#f37834"
-                        baseBgColor="#34b0f3"
+                        bgColor="#59403a"
+                        baseBgColor="#23aee1"
                         labelAlignment="right, outside"
                         width="150%"
                         animateOnRender="true"
@@ -485,7 +485,7 @@ export default function BasicTable(props) {
                             x="x"
                             label="Days Ago"
                             style={
-                              {data: {fill: "#f37834"}}
+                              {data: {fill: "#59403a"}}
                             }   
                           />
                           <VictoryBar
@@ -495,7 +495,7 @@ export default function BasicTable(props) {
                             dependentAxis
                             label="Days Ago"
                             style={
-                              {data: {fill: "#34b0f3"}
+                              {data: {fill: "#23aee1"}
                               }
                             }                    
                           />
@@ -530,8 +530,8 @@ export default function BasicTable(props) {
                             gutter={20}
                             style={{ border: { stroke: "black" } }}
                             data={[
-                              { name: "Protogen Probability", symbol: { fill: "#f37834" } },
-                              { name: "Rep Probability", symbol: { fill: "#34b0f3" } }
+                              { name: "Protogen Probability", symbol: { fill: "#59403a" } },
+                              { name: "Rep Probability", symbol: { fill: "#23aee1" } }
                             ]}
                           />
                       </VictoryChart>
